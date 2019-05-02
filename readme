@@ -1,0 +1,21 @@
+run below command to compose docker container usind docker file and docker-compose.yml file
+> docker-compose build - to build changes again
+> docker-compose up -d
+> docker system prune   - delete all system unwanted data 
+> docker system prune --volumes
+> docker container rm
+> docker container ls -a    - GET ALL ACTIVE .INACTIVE CONTAINER LIST
+
+Stop and remove all containers
+You can get a list of all Docker containers on your system using the docker container ls -aq command.
+
+To stop all running containers use the docker container stop command followed by a list of all containers IDs.
+
+> docker container stop $(docker container ls -aq)
+Copy
+Once all containers are stopped you can remove them using the docker container stop command followed by the containers ID list.
+
+> docker container rm $(docker container ls -aq)
+
+> docker image prune
+> docker image rm imagename

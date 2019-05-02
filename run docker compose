@@ -1,0 +1,4 @@
+
+export NODE_ENV=qa
+export PORT=8001
+docker-compose up -d

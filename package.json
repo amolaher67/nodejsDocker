@@ -1,0 +1,14 @@
+{
+  "name": "dockerexample",
+  "version": "1.0.0",
+  "description": "test docker for different env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amol aher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
