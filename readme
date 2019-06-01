@@ -19,3 +19,15 @@ Once all containers are stopped you can remove them using the docker container s
 
 > docker image prune
 > docker image rm imagename
+
+
+docker tag to create new images from single base image
+
+
+--- docker push
+
+1. create container on zure - it just empty container to run many images
+2. docker login  container registry server name
+3. docker tag olname loginserevr/withnewname
+3.  docker push new taggedimage - Then push image from local to url with username and password 
+
