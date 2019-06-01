@@ -30,4 +30,6 @@ docker tag to create new images from single base image
 2. docker login  container registry server name
 3. docker tag olname loginserevr/withnewname
 3.  docker push new taggedimage - Then push image from local to url with username and password 
+4. u can see new imgae in docker ps
+5. docker run with someport
 
